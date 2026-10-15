@@ -1,0 +1,10 @@
+HERMES:
+  input_feature_size: 1536
+  precompression_layer: False
+  feature_size_comp: 512
+  feature_size_attn: 256
+  postcompression_layer: True
+  feature_size_comp_post: 128
+  dropout: True
+  p_dropout_fc: 0.25
+  p_dropout_atn: 0.25

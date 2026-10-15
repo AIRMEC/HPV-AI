@@ -1,0 +1,23 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Never commit data, weights or outputs
+data/
+outputs/
+predictions/
+runs/
+*.pt
+*.pth
+*.h5
+*.pkl
+*.csv
+*.out
+*.svs
+*.ndpi
+*.mrxs
+*.tif
+*.tiff
+
+.env
+.conda/
