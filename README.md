@@ -11,7 +11,7 @@ Both models are attention-based multiple instance learning (ABMIL) models traine
 
 ---
 
-## 🧠 Model Description
+## Model Description
 - **Architecture:** Attention-based Multiple Instance Learning (ABMIL) on H-optimus-1 tile embeddings (1536-d)
 - **HERA:** one attention branch, sigmoid output (HPV-a vs HPV-i)
 - **HERMES:** one attention branch per class, one linear head per class, softmax output over HPV-a, HPV-i/p53wt and HPV-i/p53abn
@@ -19,7 +19,7 @@ Both models are attention-based multiple instance learning (ABMIL) models traine
 
 ---
 
-## ⚙️ Installation
+## Installation
 Create a conda environment and install dependencies:
 
 ```bash
